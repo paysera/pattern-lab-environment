@@ -1,0 +1,6 @@
+version: '2'
+services:
+  pattern-lab:
+    build: pattern-lab
+    ports:
+      - 4500:3000
